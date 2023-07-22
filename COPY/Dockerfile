@@ -8,4 +8,4 @@ RUN rm -rf /usr/share/nginx/html/index.html
 # you are copying app code
 COPY qi/ /usr/share/nginx/html/
 # you are staring server
-#CMD [ "nginx", "-g", "daemon off;" ]
+CMD [ "nginx", "-g", "daemon off;" ]
